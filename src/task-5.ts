@@ -14,6 +14,9 @@ logStatus("loading");
 // logStatus("hello");
 
 // // із використанням type
+
+// type Status = "loading" | "success" | "error";
+
 // function logStatus(status: Status): void {
 //   if (status === "loading") {
 //     console.log("Loading...");
@@ -23,8 +26,6 @@ logStatus("loading");
 //     console.log("Something went wrong");
 //   }
 // }
-
-// type Status = "loading" | "success" | "error";
 
 // logStatus("loading");
 // logStatus("success");
